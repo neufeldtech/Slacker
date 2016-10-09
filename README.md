@@ -24,7 +24,7 @@ To run it with Docker, follow these steps:
 docker build -t slacker .
 ```
 
-Install your Slack token to ~/slack_token (See "Configuration" below)
+Install your Slack token to ~/.slack_token (See "Configuration" below)
 
 Run the image
 ```
