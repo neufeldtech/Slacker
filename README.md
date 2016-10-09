@@ -17,6 +17,20 @@ robust. Currently there's no testing, autoloading, no options, documentation,
 logging, or any niceties that a real app should enjoy. I will build those
 things if the project ends up warranting it, and that's all up to you.
 
+Docker
+-----------
+To run it with Docker, follow these steps:
+```
+docker build -t slacker .
+```
+
+Install your Slack token to ~/slack_token (See "Configuration" below)
+
+Run the image
+```
+docker run -it -v ~/:/root/ slacker slacker
+```
+
 Installation
 ------------
 
